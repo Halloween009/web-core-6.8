@@ -146,4 +146,12 @@ h1 {
       gap: 10px;
     }
   }
+  .content__text {
+    width: 50%;
+  }
+  .comimg {
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 50%;
+  }
 }
