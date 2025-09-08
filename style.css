@@ -33,10 +33,14 @@ body {
   gap: 23px;
 }
 .header__icon768,
+.header__divider768,
 .divider768 {
   display: none;
 }
-.header__divider {
+.header__right {
+  margin-left: auto;
+}
+.divider320 {
   border-left: 0.1em solid #eaeaea;
   height: 30px;
 }
@@ -102,6 +106,13 @@ h1 {
   .header__icon768,
   .divider768 {
     display: flex;
+  }
+  .divider768 {
+    border-left: 0.1em solid #eaeaea;
+    height: 30px;
+  }
+  .divider320 {
+    display: none;
   }
   .header__left {
     display: flex;
